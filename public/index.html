@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>南昌 + 景德镇 亲子轻松游攻略（11月17日—21日）</title>
+<style>
+:root{--red:#c0392b;--blue:#1f5f99;--gold:#f5b041;--ink:#2c3e50;--muted:#6b7785;--bg:#fdf8f3;--green:#1e8449}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px}
+img{max-width:100%;display:block}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px 60px}
+.hero{position:relative;color:#fff;min-height:380px;display:flex;align-items:flex-end;overflow:hidden;background:#5b1a12}
+.hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(70,10,10,.85))}
+.hero .in{position:relative;max-width:980px;margin:0 auto;padding:40px 16px 34px;width:100%}
+.hero h1{font-size:32px;margin:0 0 6px}
+.hero p{margin:0;font-size:17px}
+.tags span{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.45);border-radius:20px;padding:2px 12px;margin:10px 6px 0 0;font-size:14px}
+nav.toc{background:#fff;border-radius:14px;box-shadow:0 2px 10px rgba(0,0,0,.06);padding:12px 18px;margin:-24px 0 24px;position:relative}
+nav.toc a{display:inline-block;margin:4px 14px 4px 0;color:var(--red);text-decoration:none;font-weight:600}
+h2{font-size:24px;margin:40px 0 14px;padding-left:12px;border-left:6px solid var(--red)}
+h2.jdz{border-color:var(--blue)}
+h3{font-size:19px;margin:22px 0 8px}
+.card{background:#fff;border-radius:14px;box-shadow:0 2px 10px rgba(0,0,0,.06);padding:18px 20px;margin:14px 0}
+.alert{border-left:5px solid var(--gold);background:#fff8e6;padding:12px 16px;border-radius:10px;margin:14px 0}
+.alert.red{border-color:var(--red);background:#fdecea}
+.alert.green{border-color:var(--green);background:#eafaf1}
+.alert.blue{border-color:var(--blue);background:#eaf2fb}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.tbl{overflow-x:auto;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,.06);margin:12px 0}
+table{width:100%;border-collapse:collapse;font-size:15px;background:#fff}
+th,td{padding:9px 10px;border-bottom:1px solid #eee;text-align:left;vertical-align:top}
+th{background:#fbeee6;color:#7b241c;white-space:nowrap}
+tr.hl td{background:#fffbea}
+.route{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-weight:600;margin:6px 0}
+.route span{background:#fff;border-radius:20px;padding:4px 14px;box-shadow:0 1px 6px rgba(0,0,0,.08)}
+.route i{color:var(--muted);font-style:normal}
+.hotel{display:grid;grid-template-columns:190px 1fr;gap:18px;align-items:start}
+.hotel img{width:190px;height:250px;object-fit:cover;border-radius:12px}
+.badge{display:inline-block;font-size:13px;padding:1px 10px;border-radius:12px;margin-right:6px;color:#fff;background:var(--red);vertical-align:middle}
+.badge.g{background:var(--green)}.badge.b{background:var(--blue)}.badge.o{background:#d68910}
+.price{font-size:24px;color:var(--red);font-weight:700}
+.price small{font-size:14px;color:var(--muted);font-weight:400}
+ul{padding-left:22px;margin:6px 0}
+li{margin:3px 0}
+.day{background:#fff;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,.07);margin:22px 0;overflow:hidden}
+.day .dh{background:linear-gradient(90deg,var(--red),#e67e22);color:#fff;padding:12px 20px;font-size:20px;font-weight:700}
+.day.j .dh{background:linear-gradient(90deg,#1f5f99,#3498db)}
+.day .dh small{font-weight:400;font-size:15px;margin-left:8px}
+.day .db{padding:16px 20px}
+.pics{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:6px}
+.pics img{width:100%;height:240px;object-fit:cover;border-radius:12px}
+.pics.one{grid-template-columns:1fr}
+.pics.one img{height:320px}
+.cap{font-size:13px;color:var(--muted);text-align:center;margin:0 0 12px}
+.tl{border-left:3px dashed #e8c4b8;margin-left:8px;padding-left:18px}
+.tl .t{position:relative;margin:10px 0}
+.tl .t:before{content:"";position:absolute;left:-26px;top:8px;width:13px;height:13px;border-radius:50%;background:var(--red);border:3px solid #fde2dc}
+.day.j .tl .t:before{background:var(--blue);border-color:#d6e6f5}
+.tl .t.rest:before{background:var(--green)!important}
+.tl .t b.time{color:var(--red);display:inline-block;min-width:100px}
+.day.j .tl .t b.time{color:var(--blue)}
+.kid{color:var(--green);font-weight:600}
+.muted{color:var(--muted);font-size:14px}
+.check li{list-style:none;margin-left:-20px}
+.check li:before{content:"☐ ";color:var(--red)}
+footer{color:var(--muted);font-size:13px;margin-top:40px;border-top:1px solid #eadfd6;padding-top:14px}
+@media(max-width:640px){.hero h1{font-size:25px}.hotel{grid-template-columns:1fr}.hotel img{width:100%;height:220px}.pics{grid-template-columns:1fr}.tl .t b.time{display:block}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <img class="bg" src="img/tengwang2.jpg" alt="滕王阁">
+  <div class="shade"></div>
+  <div class="in">
+    <h1>🏮 南昌 + 🏺 景德镇 · 亲子轻松游</h1>
+    <p>2026年11月17日（周二）— 11月21日（周六）｜5天4晚｜2位妈妈 + 5个孩子｜每晚2间房</p>
+    <div class="tags"><span>南昌 2 晚：红色景点 + 滕王阁</span><span>景德镇 2 晚：亲手做陶瓷</span><span>🐢 每天留午休</span><span>👨‍👩‍👧‍👦 适合带娃</span></div>
+  </div>
+</header>
+
+<div class="wrap">
+<nav class="toc">
+  <a href="#todo">✅ 待办</a><a href="#route">🗺️ 路线</a><a href="#hotel">🏨 酒店（实时有房）</a><a href="#train">🚄 车次</a><a href="#plan">🗓️ 每日行程</a><a href="#food">🍜 美食</a><a href="#budget">💰 预算</a><a href="#tips">🧳 贴士</a>
+</nav>
+
+<h2 id="route">🗺️ 路线总览</h2>
+<div class="route"><span>🚄 深圳 → 南昌（G2718，已购）</span><i>→</i><span>南昌住 2 晚</span><i>→</i><span>🚄 南昌 → 景德镇（约 1 小时 20 分钟）</span><i>→</i><span>景德镇住 2 晚</span><i>→</i><span>🚄 景德镇北 → 深圳北</span></div>
+<div class="tbl"><table>
+<tr><th>日期</th><th>城市</th><th>主要安排</th><th>住哪里</th></tr>
+<tr><td>11/17 周二</td><td>南昌</td><td>到达，午休，傍晚逛万寿宫，看滕王阁夜景</td><td>南昌</td></tr>
+<tr class="hl"><td>11/18 周三</td><td>南昌</td><td>⭐ <b>八一南昌起义纪念馆、八一广场</b>（红色景点），下午登滕王阁</td><td>南昌</td></tr>
+<tr><td>11/19 周四</td><td>南昌 → 景德镇</td><td>上午坐高铁，下午逛陶阳里、御窑厂</td><td>景德镇</td></tr>
+<tr class="hl"><td>11/20 周五</td><td>景德镇</td><td>古窑民俗博览区，<b>孩子亲手拉坯、画瓷</b>，晚上逛陶溪川</td><td>景德镇</td></tr>
+<tr><td>11/21 周六</td><td>景德镇 → 深圳</td><td>睡到自然醒，中午坐车回深圳</td><td>—</td></tr>
+</table></div>
+
+<h2 id="todo">✅ 今天和出发前要办的事</h2>
+<div class="card"><div class="tbl" style="box-shadow:none;margin:0"><table>
+<tr><th>什么时候</th><th>要办的事</th><th>说明</th></tr>
+<tr class="hl"><td><b>今天（11/3）</b></td><td>订<b>南昌</b>酒店 2 间，11/17 入住，11/19 退房</td><td>首选美豪丽致·豪华双床房（每间 2 张双人床，含早餐）</td></tr>
+<tr class="hl"><td><b>今天（11/3）</b></td><td>订<b>景德镇</b>酒店 2 间，11/19 入住，11/21 退房</td><td>首选陶舍度假酒店·家庭房（1 张大床 + 1 张双人床，最多住 3 人）</td></tr>
+<tr><td>订完酒店</td><td>给两家酒店打电话</td><td>①确认 1 位大人带 3 个孩子能住一间；②两间房安排在同一层、挨在一起；③要无烟房。<b>都选“免费取消”的价格。</b></td></tr>
+<tr><td><b>约 11/5</b></td><td>买 11/19 <b>南昌 → 景德镇北</b>的票</td><td>推荐 G5118（南昌西 09:21 发车）。12306 一般提前 15 天开售</td></tr>
+<tr><td><b>约 11/7</b></td><td>买 11/21 <b>景德镇北 → 深圳北</b>的票</td><td>推荐 G3327（12:53 发车）或 G2735（10:50 发车）</td></tr>
+<tr><td>出发前 3–7 天</td><td>预约<b>八一南昌起义纪念馆</b></td><td>免费，但每个人（包括孩子）都要在微信公众号或小程序实名预约，约 11/18 上午</td></tr>
+<tr><td>出发前 3–7 天</td><td>预约<b>御窑博物馆</b>、买<b>古窑</b>门票</td><td>在微信搜索官方公众号购买或预约；陶艺 DIY 可以到了现场再报名</td></tr>
+</table></div></div>
+
+<!-- HOTEL -->
+<h2 id="hotel">🏨 酒店推荐（已联网查过，下面的房型当时都还能订）</h2>
+<div class="alert">2026-11-03 在 Trip.com（携程国际版）查询，只看“2 张床”的房型。价格为<b>每间每晚、含税</b>。其他平台价格可能有点不同，可以比一下。标着“只剩 1–2 间”的房型要尽快订。</div>
+
+<h3>📍 南昌（11/17—11/19，2 晚）</h3>
+<div class="card hotel">
+  <img src="img/h_mehood.jpg" alt="美豪丽致酒店">
+  <div>
+    <b style="font-size:18px">美豪丽致酒店（万寿宫滕王阁店）</b> <span class="badge">⭐ 首选</span><span class="badge g">含早餐</span>
+    <div>评分 <b>9.6/10</b>（12,290 条点评）｜四钻｜<b>豪华双床房，2 张双人床</b>｜可免费取消</div>
+    <div class="price">¥328<small> /间/晚（原价 ¥517）｜2 晚 ¥696/间，<b>2 间共约 ¥1,392</b></small></div>
+    <ul>
+      <li>📍 朝阳洲中路 199 号，<b>走路就能到滕王阁、万寿宫、大士院美食街</b></li>
+      <li>👶 0–12 岁孩子不加床可以免费住；早餐：身高 1.2 米以下免费，1.2 米以上 ¥58/位</li>
+      <li>🛡️ 24 小时前台，有门禁、监控和保安，不收押金，有洗衣房</li>
+      <li>☎️ 0791-87083333｜14:00 后入住，14:00 前退房｜不能加床</li>
+    </ul>
+  </div>
+</div>
+<div class="tbl"><table>
+<tr><th>南昌备选</th><th>评分</th><th>有房的房型</th><th>每间每晚</th><th>说明</th></tr>
+<tr><td><b>观澜花园酒店（滕王阁八一广场店）</b></td><td>9.4（1,233 条）</td><td>雅致双床房</td><td><b>¥143</b></td><td><b>最便宜</b>，就在八一起义纪念馆旁边，2025 年新开。查询时只剩 2 间</td></tr>
+<tr><td>桔子酒店（滕王阁万寿宫店）</td><td>9.6（3,463 条）</td><td>精选双床房（有落地窗）</td><td>¥364</td><td>2025 年新开，在八一广场和滕王阁之间</td></tr>
+<tr><td>南昌滕王阁美居江景酒店</td><td>9.5（8,153 条）</td><td>高级房，2 张单人床</td><td>¥409</td><td>过马路就是滕王阁，12 岁及以下孩子免费吃早餐。查询时只剩 1 间</td></tr>
+</table></div>
+
+<h3>📍 景德镇（11/19—11/21，2 晚）</h3>
+<div class="card hotel">
+  <img src="img/h_taoshe.jpg" alt="陶舍度假酒店">
+  <div>
+    <b style="font-size:18px">陶舍度假酒店（陶阳里景区陶溪川步行街店）</b> <span class="badge b">⭐ 首选</span><span class="badge o">家庭房</span>
+    <div>评分 <b>9.4/10</b>（5,913 条点评）｜四钻｜<b>2 号楼巷外静谧家庭房：1 张大床 + 1 张双人床，最多住 3 人</b>｜可免费取消</div>
+    <div class="price">¥278<small> /间/晚（原价 ¥311）｜2 晚 ¥590/间，<b>2 间共约 ¥1,180</b></small></div>
+    <ul>
+      <li>📍 就在<b>陶阳里、御窑厂</b>旁边，走路就能逛；去陶溪川、古窑打车 10 分钟左右</li>
+      <li>👨‍👩‍👧 房型最适合一位妈妈带 3 个孩子：妈妈和小一点的孩子睡大床，另外两个孩子睡双人床</li>
+      <li>🏺 有非遗手工体验、景观鱼池，评价里常说是“亲子酒店”；房间临巷外，比较安静</li>
+      <li class="muted">订之前看清楚含不含早餐；两间家庭房订不到的话，另一间订下面的双床房</li>
+    </ul>
+  </div>
+</div>
+<div class="tbl"><table>
+<tr><th>景德镇备选</th><th>评分</th><th>有房的房型</th><th>每间每晚</th><th>说明</th></tr>
+<tr><td><b>景德镇御窑厂如院天空之城酒店（人民广场店）</b></td><td>9.6（2,472 条）</td><td>蒔光双床房，<b>2 张双人床，含早餐</b></td><td><b>¥297</b></td><td>2025 年新开，早餐评价很好，有空中花园。查询时只剩 1 间</td></tr>
+<tr><td>景德镇凤凰留园酒店（中国陶瓷博物馆古窑店）</td><td>9.5（2,945 条）</td><td>朴宿双床房，有智能马桶</td><td>¥270</td><td>2025 年新开，有园林，<b>离古窑和陶瓷博物馆近</b></td></tr>
+<tr><td>景德镇陶溪川铂格酒店</td><td>9.2（6,072 条）</td><td>霁蘭双床房</td><td>¥267</td><td>走路就到陶溪川，晚上逛市集方便</td></tr>
+<tr><td>景德镇陶溪川陶阳新村亚朵见野酒店</td><td>9.6（302 条）</td><td>高级双床房，2 张单人床</td><td>—</td><td>2026 年新开，在陶溪川旁边</td></tr>
+</table></div>
+<div class="alert green"><b>建议：</b>南昌订<b>美豪丽致 2 间</b>（想省钱就订观澜花园）。景德镇订<b>陶舍 2 间家庭房</b>；如果只剩 1 间，另一间订如院天空之城或凤凰留园的双床房。4 晚住宿合计约 <b>¥2,570</b>。</div>
+
+<!-- TRAIN -->
+<h2 id="train">🚄 车次</h2>
+<div class="grid">
+<div class="card"><h3 style="margin-top:0">① 11/17 去程（已购）</h3>
+<p><b>G2718</b>：深圳北 07:29 → <b>南昌站 11:43</b>（南昌站是终点站）</p>
+<p class="muted">7 个人一辆出租车坐不下，可以打两辆出租车，或者在滴滴、高德上叫“6–7 座商务车”。到美豪丽致大约 15 分钟。</p></div>
+<div class="card"><h3 style="margin-top:0">② 11/19 南昌 → 景德镇北（待买）</h3>
+<table>
+<tr class="hl"><td><b>G5118</b></td><td>南昌西 09:21 → 景德镇北 10:40</td><td>⭐推荐</td></tr>
+<tr><td>G2760</td><td>南昌西 09:06 → 景德镇北 10:26</td><td></td></tr>
+<tr><td>G4316</td><td>南昌西 12:46 → 景德镇北 14:07</td><td>想多睡一会选这班</td></tr>
+</table>
+<p class="muted">从滕王阁一带打车到南昌西站大约 30–40 分钟，要提前 1 个半小时出门。不要买到南昌东站出发的车，那个站离市区很远。</p></div>
+<div class="card"><h3 style="margin-top:0">③ 11/21 景德镇北 → 深圳北（待买）</h3>
+<table>
+<tr class="hl"><td><b>G3327</b></td><td>12:53 → 18:14</td><td>⭐最从容</td></tr>
+<tr><td>G2735</td><td>10:50 → 16:20</td><td>到家早</td></tr>
+<tr><td>G1409</td><td>10:24 → 15:56</td><td></td></tr>
+</table>
+<p class="muted">车程约 5 个半小时，带上零食、平板和耳机。从陶阳里打车到景德镇北站大约 20 分钟。</p></div>
+</div>
+<div class="alert"><b>🎫 孩子乘车规则：</b>一位大人可以带 1 名 6 岁以下的孩子免费乘车，但免费的孩子没有座位；6–14 岁买儿童票，大约半价；14 岁以上买全价票。<b>建议每个孩子都买有座位的票。</b>孩子的信息要提前添加到 12306 账户里。车次以 12306 显示为准。</div>
+
+<!-- PLAN -->
+<h2 id="plan">🗓️ 每日行程</h2>
+<div class="alert green">每天的节奏都是：上午玩 → 中午回酒店午休 → 傍晚再出门。孩子累了随时可以回酒店，行程不赶。</div>
+
+<div class="day">
+<div class="dh">Day 1｜11/17 周二<small>到达南昌 · 万寿宫 · 滕王阁夜景</small></div>
+<div class="db">
+<div class="pics one"><img src="img/wanshou.jpg" alt="万寿宫"></div><p class="cap">万寿宫历史文化街区</p>
+<div class="tl">
+<div class="t"><b class="time">11:43</b>G2718 到达南昌站，打车去酒店，先寄存行李</div>
+<div class="t"><b class="time">12:30</b>午餐：第一顿吃<b>南昌拌粉 + 瓦罐汤</b>（瓦罐汤清淡，孩子都能喝）</div>
+<div class="t rest"><b class="time">14:00–16:00</b><span class="kid">😴 入住，午休</span></div>
+<div class="t"><b class="time">16:00</b><b>万寿宫历史文化街区</b>（免费）：仿古街区，路平，能推婴儿车，边逛边吃小吃</div>
+<div class="t"><b class="time">17:30</b>在<b>大士院、蛤蟆街</b>一带吃晚饭</div>
+<div class="t"><b class="time">18:30</b>到赣江边散步，看<b>滕王阁亮灯</b>和对岸的灯光秀（亮灯时间以当天为准）</div>
+<div class="t rest"><b class="time">20:00</b>回酒店休息</div>
+</div></div></div>
+
+<div class="day">
+<div class="dh">Day 2｜11/18 周三<small>⭐ 红色日：八一起义纪念馆 · 八一广场 · 登滕王阁</small></div>
+<div class="db">
+<div class="pics"><img src="img/hall.jpg" alt="八一南昌起义纪念馆"><img src="img/tower.jpg" alt="八一起义纪念塔"></div><p class="cap">左：八一南昌起义纪念馆（起义总指挥部旧址）　右：八一南昌起义纪念塔</p>
+<div class="tl">
+<div class="t"><b class="time">09:00–10:30</b><b>八一南昌起义纪念馆</b>（中山路 380 号）：免费，<b>必须实名预约</b>。周二到周日 9:00–17:00 开放，16:30 停止入馆，周一闭馆。<br>
+1927 年 8 月 1 日，周恩来、贺龙、叶挺、朱德、刘伯承等人领导了南昌起义，这里就是当年的总指挥部，<b>“八一建军节”就是从这一天来的</b>。<br>
+<span class="kid">👧 带娃小提示：</span>出发前先给孩子讲讲“为什么 8 月 1 日是建军节”。馆里有枪支、油画和场景复原，孩子一般爱看。看 1–1.5 小时就够了。</div>
+<div class="t"><b class="time">10:45</b><b>八一广场 · 八一起义纪念塔</b>（免费）：广场很大，孩子可以跑一跑。大家在塔前拍一张合影。</div>
+<div class="t"><b class="time">11:30</b>在中山路、胜利路步行街一带吃午饭</div>
+<div class="t rest"><b class="time">12:30–15:00</b><span class="kid">😴 回酒店午休</span></div>
+<div class="t"><b class="time">15:30–17:30</b><b>滕王阁</b>（江南三大名楼之一，从酒店走过去就到）。<b>坐电梯上顶楼，再一层层走楼梯下来</b>，顺便看每层的展览。在顶楼看赣江日落。<br>
+<span class="kid">📖 小任务：</span>让孩子找出“落霞与孤鹜齐飞，秋水共长天一色”这句话。孩子按身高或年龄可以免票或买优惠票。</div>
+<div class="t"><b class="time">18:00</b>晚饭后早点回酒店，<b>晚上把行李收拾好</b>，明天要换城市</div>
+</div>
+<div class="pics one" style="margin-top:12px"><img src="img/bayi.jpg" alt="八一广场"></div><p class="cap">八一广场</p>
+</div></div>
+
+<div class="day j">
+<div class="dh">Day 3｜11/19 周四<small>高铁去景德镇 · 陶阳里 · 御窑厂</small></div>
+<div class="db">
+<div class="pics"><img src="img/yuyao.jpg" alt="御窑博物馆"><img src="img/changjiang.jpg" alt="景德镇老城"></div><p class="cap">左：景德镇御窑博物馆　右：景德镇老城和昌江</p>
+<div class="tl">
+<div class="t"><b class="time">07:30</b>吃早餐，退房</div>
+<div class="t"><b class="time">08:00</b>叫一辆 6–7 座商务车去<b>南昌西站</b></div>
+<div class="t"><b class="time">09:21</b>坐 <b>G5118</b>，10:40 到<b>景德镇北</b>，打车大约 20 分钟到酒店，先寄存行李</div>
+<div class="t"><b class="time">11:30</b>午饭吃景德镇特色的<b>冷粉、饺子粑</b>（点的时候说不要辣）</div>
+<div class="t rest"><b class="time">12:30–15:00</b><span class="kid">😴 入住，午休</span></div>
+<div class="t"><b class="time">15:00–17:00</b><b>陶阳里 · 御窑厂 · 御窑博物馆</b>：明清时代给皇帝烧瓷器的地方，博物馆的建筑是一排排拱形的“窑”，很好拍照。博物馆需要预约，周一闭馆。<br>
+<span class="kid">👦 带娃看点：</span>看几百年前烧坏、被打碎的“御用瓷片”，再看拼回原样的瓷器，孩子会觉得很神奇。</div>
+<div class="t"><b class="time">17:30</b>在<b>御窑景巷、陶阳里</b>的老街吃晚饭，晚上的老街有灯光，可以慢慢散步</div>
+<div class="t rest"><b class="time">19:30</b>回酒店早点睡</div>
+</div></div></div>
+
+<div class="day j">
+<div class="dh">Day 4｜11/20 周五<small>古窑民俗博览区 · 亲手做陶瓷 · 陶溪川夜市</small></div>
+<div class="db">
+<div class="pics"><img src="img/guyao.jpg" alt="古窑民俗博览区"><img src="img/taoxichuan.jpg" alt="陶溪川"></div><p class="cap">左：古窑民俗博览区里的瓷器　右：陶溪川文创街区</p>
+<div class="tl">
+<div class="t"><b class="time">09:00–11:30</b><b>古窑民俗博览区</b>（这次景德镇最值得带孩子去的地方，要买门票）：<br>
+可以看老师傅现场表演<b>拉坯、利坯、画青花</b>，还有几百年前的柴窑。<br>
+<span class="kid">🏺 亲子 DIY：</span>孩子可以自己<b>拉坯</b>做一个小碗，或者在瓷盘、杯子上画画。做好的作品要等烧制，一般 1–2 周后快递到家，<b>回家后还能收到一份纪念品</b>。费用大约每人几十元，以现场为准。</div>
+<div class="t"><b class="time">12:00</b>午饭</div>
+<div class="t rest"><b class="time">12:30–15:00</b><span class="kid">😴 午休</span></div>
+<div class="t"><b class="time">15:30</b>（可选）去<b>中国陶瓷博物馆</b>（免费，要预约），离古窑很近，看 1 小时左右；孩子累了就跳过</div>
+<div class="t"><b class="time">17:00</b><b>陶溪川文创街区</b>：由老瓷厂的厂房改造，红砖烟囱，晚上亮灯很漂亮。<b>周五晚上一般有创意市集</b>（具体以陶溪川官方公告为准），可以买些小瓷器当伴手礼，每个孩子挑一个自己的小杯子</div>
+<div class="t rest"><b class="time">19:30</b>回酒店收拾行李</div>
+</div>
+<div class="pics one" style="margin-top:12px"><img src="img/ceramics_museum.jpg" alt="中国陶瓷博物馆"></div><p class="cap">中国陶瓷博物馆</p>
+</div></div>
+
+<div class="day j">
+<div class="dh">Day 5｜11/21 周六<small>睡到自然醒 · 回深圳</small></div>
+<div class="db"><div class="tl">
+<div class="t"><b class="time">08:30</b>慢慢吃早餐</div>
+<div class="t"><b class="time">09:30</b>在酒店附近的陶阳里再逛一逛，买伴手礼（瓷器要请店家<b>用防震包装包好</b>，或者直接寄回家）</div>
+<div class="t"><b class="time">11:00</b>早点吃午饭，退房</div>
+<div class="t"><b class="time">11:45</b>打车去<b>景德镇北站</b>，大约 20 分钟</div>
+<div class="t"><b class="time">12:53</b>坐 <b>G3327</b> 回深圳北，18:14 到达 🏠</div>
+</div></div></div>
+
+<!-- FOOD -->
+<h2 id="food">🍜 美食（点菜时都说“少辣”或“不辣”）</h2>
+<div class="grid">
+<div class="card"><h3 style="margin-top:0">南昌</h3><ul>
+<li><b>瓦罐汤</b>：比如肉饼蛋汤，很清淡，孩子最爱喝</li>
+<li><b>南昌拌粉</b>：可以只放酱油和花生，不要辣</li>
+<li>白糖糕、三杯鸡、藜蒿炒腊肉</li>
+<li>📍 推荐去万寿宫、大士院、绳金塔一带吃</li></ul></div>
+<div class="card"><h3 style="margin-top:0">景德镇</h3><ul>
+<li><b>冷粉</b>（可以要不辣的）、<b>饺子粑</b>（米皮做的饺子）</li>
+<li><b>碱水粑</b>、油条包麻糍</li>
+<li>瓷泥煨鸡（用泥包着煨熟的鸡）</li>
+<li>📍 推荐去陶阳里、陶溪川、御窑景巷一带吃</li></ul></div>
+</div>
+
+<!-- BUDGET -->
+<h2 id="budget">💰 费用估算（7 个人，去程车票已买，不算在内）</h2>
+<div class="tbl"><table>
+<tr><th>项目</th><th>大约多少钱</th><th>说明</th></tr>
+<tr><td>南昌住宿（2 间 × 2 晚）</td><td>¥1,392（美豪丽致）／¥572（观澜花园）</td><td>11/3 查询的价格</td></tr>
+<tr><td>景德镇住宿（2 间 × 2 晚）</td><td>¥1,180（陶舍家庭房）</td><td>11/3 查询的价格</td></tr>
+<tr><td>南昌 → 景德镇高铁</td><td>约 ¥350–500</td><td>每人约 ¥60–90，儿童票大约半价，以 12306 为准</td></tr>
+<tr><td>景德镇 → 深圳高铁</td><td>约 ¥2,000–2,600</td><td>每人约 ¥450–550，儿童票大约半价，以 12306 为准</td></tr>
+<tr><td>门票和陶艺 DIY</td><td>约 ¥600–900</td><td>纪念馆和广场免费；滕王阁、古窑要门票；DIY 按项目收费</td></tr>
+<tr><td>吃饭</td><td>约 ¥1,500–2,000</td><td>人均每天 ¥50–70</td></tr>
+<tr><td>市内打车</td><td>约 ¥350</td><td>每次打两辆车或叫一辆 6 座车</td></tr>
+<tr class="hl"><td><b>合计</b></td><td><b>约 ¥6,500–8,700</b></td><td>两家 AA，每家约 ¥3,200–4,400</td></tr>
+</table></div>
+
+<!-- TIPS -->
+<h2 id="tips">🧳 带娃贴士和出行清单</h2>
+<div class="grid">
+<div class="card"><h3 style="margin-top:0">🌦️ 天气和穿衣</h3><p>11 月中下旬，南昌和景德镇白天大约 12–20°C，早晚 6–12°C，可能下雨。衣服按“薄长袖 + 卫衣 + 防风外套”一层层穿；做陶艺会弄脏衣服，<b>给孩子多带一套旧衣服或罩衣</b>。</p></div>
+<div class="card"><h3 style="margin-top:0">🛡️ 安全（带 5 个孩子要特别注意）</h3><ul>
+<li>每个孩子手腕上戴一个<b>写着妈妈手机号的手环</b></li>
+<li>每天出门前<b>给孩子拍一张全身照</b>，万一走散能说清楚穿什么衣服</li>
+<li>两位妈妈分工：一个走在前面，一个走在最后；上下车时清点人数</li>
+<li>换乘高铁、进出站时人多，牵好孩子；瓷器店里提醒孩子<b>别用手碰瓷器</b></li></ul></div>
+<div class="card"><h3 style="margin-top:0">🪪 证件</h3><ul>
+<li>妈妈们的身份证</li>
+<li>孩子的<b>身份证或户口本原件</b>：坐高铁、住酒店、纪念馆实名入馆都要用</li>
+<li>提前在 12306 里添加好孩子的信息</li></ul></div>
+<div class="card"><h3 style="margin-top:0">🎒 随身包</h3><ul class="check">
+<li>水杯、零食、湿巾</li><li>常用药：退烧药、肠胃药、创可贴</li><li>充电宝、平板、儿童耳机</li><li>折叠伞、垃圾袋</li><li>装瓷器用的气泡袋或旧毛巾</li></ul></div>
+</div>
+
+<div class="alert red"><b>⚠️ 出发前再确认一下：</b>①两家酒店的订单（都是 2 间、免费取消、房间相邻）；②两段车票；③八一纪念馆和御窑博物馆的预约；④天气预报。景点的开放时间、门票和市集时间可能会调整，<b>以官方公告为准</b>。</div>
+
+<footer>酒店价格和空房情况：2026-11-03 在 Trip.com 查询；酒店图片来自携程。车次来自携程火车票、好查车次查询，以 12306 为准。景点图片来自 Wikimedia Commons（知识共享许可）。祝两位妈妈和五个宝贝玩得开心！🎉</footer>
+</div>
+</body>
+</html>
